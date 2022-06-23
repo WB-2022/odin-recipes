@@ -1,6 +1,23 @@
+body {
+    background-color: #00ffbb;
+    width: 500px;
+    margin: 0 auto;
+  }
+  
+  p {
+    background: rgba(255,84,104,0.3);
+    border: 2px solid rgb(255,84,104);
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  span {
+    background: white;
+    border: 1px solid black;
+  }
 .meals {
     color: #000ff0;
-    background-color: black;
+    background-color:#00ffbb;
     text-align: center;
 }
 
@@ -23,3 +40,33 @@
     border: 5px red;
 
 }
+
+.color-primary {
+  color: #fe0044;
+}
+
+.color-minty-paradice {
+  color: #00ffbb;
+}
+
+.color-french-lime {
+  color: #c3ff00;
+}
+
+.color-electric-ultramarine {
+  color: #3c00ff;
+}
+
+.bg-primary {
+  background-color: #fe0044;
+}
+
+.bg-french-lime {
+  background-color: #c3ff00;
+}
+
+.bg-electric-ultramarine {
+  background-color: #3c00ff;
+}
+
+              
