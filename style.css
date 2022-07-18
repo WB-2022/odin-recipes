@@ -1,20 +1,25 @@
 body {
-    background-color: #00ffbb;
-    width: 500px;
-    margin: 0 auto;
+  font-family:barlow, sans-serif;
+    background-color: #116466;
+    min-height: 100vh;
+    flex-direction: column;
+    display: flex;
+    margin: 0;
   }
-  
-  p {
-    background: rgba(255,84,104,0.3);
-    border: 2px solid rgb(255,84,104);
-    padding: 10px;
-    margin: 10px;
-  }
-  
-  span {
-    background: white;
-    border: 1px solid black;
-  }
+
+.title{
+  height: 72px;
+  background: darkmagenta;
+  color: white;
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: left;
+  font-size: 32px;
+  padding-left: 0 16 px;
+  font-weight: 900;
+}
+
 .meals {
     color: #000ff0;
     background-color:#00ffbb;
@@ -22,15 +27,10 @@ body {
 }
 
 #title {
+    display: border-box;
+    width: 500px;
     text-align: center;
     Color: #000ff0;
-}
-
-* {
-    padding: 0;
-    margin: 0;
-    font-size: 20px;
-    box-sizing: border-box;
 }
 .box {
     width: 100px;
